@@ -15,7 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "viem": "^1.16.6"
+    "viem": "^1.18.9"
   },
   "overrides": {
     "typescript": "4.9.5"
