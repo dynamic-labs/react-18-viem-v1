@@ -3,6 +3,8 @@ import {
   DynamicContextProvider,
 } from "@dynamic-labs/sdk-react-core";
 
+import Burn from "./Burn";
+
 import { EthereumWalletConnectors } from "@dynamic-labs/ethereum";
 import { AlgorandWalletConnectors } from "@dynamic-labs/algorand";
 import { SolanaWalletConnectors } from "@dynamic-labs/solana";
@@ -29,6 +31,7 @@ const App = () => (
     }}
   >
     <DynamicWidget />
+    <Burn />
   </DynamicContextProvider>
 );
 
